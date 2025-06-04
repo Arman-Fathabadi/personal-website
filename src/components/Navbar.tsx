@@ -88,7 +88,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => {
                   href={getHref(link.href)}
                   className={`block py-2 text-center ${
                     isActive(link.href)
-                      ? 'text-blue-600 dark:text-blue-400 font-semibold border-b-2 border-blue-600 dark:border-blue-400' 
+                      ? 'text-blue-600 dark:text-blue-400 font-semibold border-b-2 border-blue-600 dark:border-blue-400'
                       : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
                   } transition-colors`}
                   onClick={() => setIsOpen(false)}
@@ -96,6 +96,17 @@ const Navbar = ({ isDarkMode, toggleDarkMode }: NavbarProps) => {
                   {link.label}
                 </Link>
               ))}
+              <button
+                type="button"
+                onClick={toggleDarkMode}
+                className="mt-2 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                {isDarkMode ? (
+                  <HiSun className="w-6 h-6 mx-auto" />
+                ) : (
+                  <HiMoon className="w-6 h-6 mx-auto" />
+                )}
+              </button>
             </motion.div>
           )}
         </AnimatePresence>
