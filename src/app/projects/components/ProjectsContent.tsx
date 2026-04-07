@@ -6,18 +6,48 @@ import ProjectCard from '@/components/ProjectCard';
 export default function ProjectsContent() {
   const projects = [
     {
-      title: "Personal Portfolio",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS",
-      techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      githubLink: "https://github.com/Arman-Fathabadi/Personal_Portfolio",
-      liveDemo: "https://arman-fathabadi.web.app/"
+      title: "Budget Wizer: Full-Stack Financial Suite",
+      timeline: "Mar. 2026 – Present",
+      description: [
+        "Used React Native and Firebase NoSQL to sync multi-user expense data, achieving sub-second latency across devices.",
+        "Built a Python CSV parser with strict validation rules, reducing manual data entry by 80%.",
+        "Developed a SQL-backed transaction categorization engine, cutting manual budgeting time by 30%."
+      ],
+      techStack: ["React Native", "Firebase", "Python", "SQL"],
+      githubLink: "https://github.com/Arman-Fathabadi/Budget-wizer"
     },
     {
-      title: "Project 2",
-      description: "Description of your second project",
-      techStack: ["React", "Node.js", "MongoDB"],
-      githubLink: "https://github.com/yourusername/project2",
-      liveDemo: "https://project2-demo.com"
+      title: "FatalChase",
+      timeline: "Feb. 2026 – Apr. 2026",
+      description: [
+        "Built a Unity 6 3D survival driving game with reactive AI pursuit, boost mechanics, and real-time physics.",
+        "Designed the full C# gameplay loop including chase AI, timed objectives, and collision feedback systems.",
+        "Integrated physics-based vehicle handling with spatial audio, shipping a cross-platform MVP for Windows and macOS."
+      ],
+      techStack: ["Unity 6", "C#", "3D Physics"],
+      githubLink: "https://github.com/Arman-Fathabadi/FatalChase"
+    },
+    {
+      title: "Scientific Calculator",
+      timeline: "Jan. 2026 – Feb. 2026",
+      description: [
+        "Engineered a BigDecimal math engine eliminating floating-point drift across complex trigonometric operations.",
+        "Built a Graphics2D graphing module with zoom-adaptive coordinate mapping for real-time function scaling.",
+        "Implemented a Shunting-yard expression parser handling 50+ unit-tested edge cases across nested logic."
+      ],
+      techStack: ["Java", "Graphics2D", "Algorithms"],
+      githubLink: "https://github.com/Arman-Fathabadi/Scientific-Calculator"
+    },
+    {
+      title: "PrepTime",
+      timeline: "Dec. 2025 – Present",
+      description: [
+        "Architected a Next.js 14 and Zustand calendar interface, optimizing rendering across 50+ concurrent tasks.",
+        "Built a FastAPI and Hugging Face inference pipeline deployed on Vercel for async schedule generation.",
+        "Fixed TypeScript hydration errors, ensuring millisecond-accurate Pomodoro session tracking and data persistence."
+      ],
+      techStack: ["Next.js", "TypeScript", "FastAPI", "Zustand"],
+      githubLink: "https://github.com/Arman-Fathabadi/Preptime-updated"
     }
   ];
 
