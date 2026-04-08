@@ -4,16 +4,60 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --color-navy: #0a192f;
+    --color-light-navy: #112240;
+    --color-lightest-navy: #233554;
+    --color-slate: #8892b0;
+    --color-light-slate: #a8b2d1;
+    --color-lightest-slate: #ccd6f6;
+    --color-white: #e6f1ff;
+    --color-green: #64ffda;
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 0 0% 100%;
+  body {
+    @apply bg-navy text-slate font-sans antialiased leading-relaxed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-lightest-slate font-semibold;
+  }
+
+  a {
+    @apply text-green inline-block relative cursor-pointer decoration-auto transition-colors duration-200 hover:text-green/80;
+  }
+
+  p {
+    @apply text-slate;
   }
 }
 
-body {
-  @apply bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200;
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-light-slate) var(--color-navy);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-light-slate);
+  border: 3px solid var(--color-navy);
+  border-radius: 10px;
+}
+
+::selection {
+  background-color: var(--color-lightest-navy);
+  color: var(--color-lightest-slate);
 }

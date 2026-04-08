@@ -14,7 +14,6 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/three": "^0.134.0",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
     "critters": "^0.0.23",
@@ -22,9 +21,7 @@
     "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
-    "three": "^0.134.0",
-    "vanta": "^0.5.24"
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
