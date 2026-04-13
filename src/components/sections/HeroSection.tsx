@@ -28,8 +28,8 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        <h2 className="text-4xl sm:text-6xl font-semibold text-slate tracking-tight mb-6">
-          I build high-performance applications.
+        <h2 className="text-4xl sm:text-6xl font-semibold text-light-slate tracking-tight mb-6">
+          CS student at TMU | Seeking Summer 2026 Internship
         </h2>
       </motion.div>
 

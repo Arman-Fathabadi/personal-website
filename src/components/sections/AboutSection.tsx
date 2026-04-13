@@ -40,17 +40,6 @@ export default function AboutSection() {
             My main focus these days is building accessible, inclusive products and robust infrastructure.
             I&apos;ve contributed to the <span className="text-green">TMU Algorithms and Coding Club (TMACC)</span> and the <span className="text-green">Metropolitan Game Studio</span>.
           </p>
-          <p>
-            Here are a few technologies I&apos;ve been working with recently:
-          </p>
-          <ul className="grid grid-cols-2 gap-x-4 gap-y-2 font-mono text-sm mt-4">
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">TypeScript (Next.js)</li>
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">React & React Native</li>
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">Python & C++</li>
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">Node.js</li>
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">SQL & Firebase</li>
-            <li className="flex items-center before:content-['▹'] before:text-green before:mr-2">AWS & Docker</li>
-          </ul>
         </motion.div>
 
         <motion.div

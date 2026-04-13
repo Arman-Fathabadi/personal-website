@@ -61,3 +61,7 @@ html {
   background-color: var(--color-lightest-navy);
   color: var(--color-lightest-slate);
 }
+/* Fix for anchor link scroll position */
+section[id] {
+  scroll-margin-top: 100px;
+}

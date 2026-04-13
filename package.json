@@ -34,6 +34,7 @@
     "cssnano": "^6.1.2",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
+    "firebase-tools": "^15.13.0",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
     "serve": "^14.2.1",

@@ -6,10 +6,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenu, HiX } from 'react-icons/hi';
 
 const navLinks = [
-  { name: 'About', url: '#about' },
-  { name: 'Experience', url: '#experience' },
-  { name: 'Projects', url: '#projects' },
-  { name: 'Contact', url: '#contact' },
+  { name: 'About', url: '/#about' },
+  { name: 'Experience', url: '/#experience' },
+  { name: 'Projects', url: '/#projects' },
+  { name: 'Skills', url: '/#skills' },
+  { name: 'Contact', url: '/#contact' },
 ];
 
 const Navbar = () => {
